@@ -7,14 +7,14 @@ module.exports = {
 function combineUsers (...args) {
   const combineObject = {
     users : []
-  }
+  };
 
 
 for (const array of args) {
-  combineObject.users = [...combinedObject.users, ...array];
+  combineObject.users = [...combineObject.users, ...array];
 }
 
-combinedObject.merge_date = Date.today().toString("M/d/yyyy");
+combineObject.merge_date = Date.today().toString("M/d/yyyy");
 
- return combinedObject;
+ return combineObject;
 } ;
